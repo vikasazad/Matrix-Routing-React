@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .app {
+    height: 600px;
+    width: 100vh;
+  }
+  .map {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .marker {
+    background-image: url('https://img.favpng.com/13/24/14/gps-icon-location-icon-map-icon-png-favpng-MpUBqRXPeDLS2pLRnUreqzKXG.jpg');
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+    background-color: yellow;
+    border-radius: 11px;
+    border: solid 3px rgb(14, 66, 66);
+  }
+  
+  .marker-delivery {
+    background-image: url('https://i.imgur.com/cIooqnp.png');
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+    border-radius: 15px;
+    border: solid darkslategrey 3px;
+  }
